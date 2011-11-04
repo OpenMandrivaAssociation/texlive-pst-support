@@ -30,6 +30,7 @@ scripts for use with TeXnicCenter/.
 %doc %{_texmfdistdir}/doc/generic/pst-support/latex-ps-pdf.tco
 %doc %{_texmfdistdir}/doc/generic/pst-support/latex-pstpdf-pdf.tco
 %doc %{_texmfdistdir}/doc/generic/pst-support/pdflatex-autopstpdf.tco
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -40,3 +41,5 @@ scripts for use with TeXnicCenter/.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
