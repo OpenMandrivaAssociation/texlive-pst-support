@@ -16,8 +16,6 @@ Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pst-support.doc.t
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
-Conflicts:	texlive-texmf <= 20110705-3
-Conflicts:	texlive-doc <= 20110705-3
 
 %description
 An appropriate set of job options, together with process
@@ -30,7 +28,6 @@ scripts for use with TeXnicCenter/.
 %doc %{_texmfdistdir}/doc/generic/pst-support/latex-ps-pdf.tco
 %doc %{_texmfdistdir}/doc/generic/pst-support/latex-pstpdf-pdf.tco
 %doc %{_texmfdistdir}/doc/generic/pst-support/pdflatex-autopstpdf.tco
-%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -41,5 +38,3 @@ scripts for use with TeXnicCenter/.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
-mkdir -p %{buildroot}%{_tlpkgobjdir}
-cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
