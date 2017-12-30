@@ -5,8 +5,8 @@
 # catalog-license lppl
 # catalog-version 2009-02-05
 Name:		texlive-pst-support
-Version:	20090205
-Release:	10
+Version:	20170414
+Release:	1
 Summary:	Assorted support files for use with PStricks
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/pstricks/pst-support
