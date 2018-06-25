@@ -5,7 +5,7 @@
 # catalog-license lppl
 # catalog-version 2009-02-05
 Name:		texlive-pst-support
-Version:	20170414
+Version:	20180303
 Release:	1
 Summary:	Assorted support files for use with PStricks
 Group:		Publishing
