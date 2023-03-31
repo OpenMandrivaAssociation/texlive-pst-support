@@ -1,6 +1,6 @@
 Name:		texlive-pst-support
 Version:	15878
-Release:	1
+Release:	2
 Summary:	Assorted support files for use with PStricks
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/pstricks/pst-support
