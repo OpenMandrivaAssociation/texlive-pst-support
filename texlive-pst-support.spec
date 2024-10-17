@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	Assorted support files for use with PStricks
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/graphics/pstricks/pst-support
+URL:		https://www.ctan.org/tex-archive/graphics/pstricks/pst-support
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pst-support.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pst-support.doc.r%{version}.tar.xz
